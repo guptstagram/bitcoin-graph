@@ -3,3 +3,38 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.wrapper-component {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1;
+}
+
+.currency-component{
+  flex: 0.4;
+}
+
+.currency-component p {
+  color: #808080;
+}
+
+.currency-component select {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background: white;
+  margin: 10px 0;
+  font-size: 16px;
+  font-family: "Nunito";
+}
+
+.graph-component{
+  flex: 0.4;
+}
